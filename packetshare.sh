@@ -128,7 +128,7 @@ uninstall(){
 }
 
 # 传参
-while getopts "UuM:m:P:p:" OPTNAME; do
+while getopts "UuE:e:P:p:" OPTNAME; do
   case "$OPTNAME" in
     'U'|'u' ) uninstall;;
     'E'|'e' ) EMAIL=$OPTARG;;
