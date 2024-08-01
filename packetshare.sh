@@ -108,7 +108,7 @@ container_build(){
 
   # 创建容器
   yellow " Create the packetshare container.\n "
-  docker run --log-opt max-size=10m -d --restart=always -accept-tos -email=$EMAIL -password=$PASSWORD packetshare/packetshare:latest
+  docker run --log-opt max-size=10m -d --restart=always packetshare/packetshare:latest -accept-tos -email=$EMAIL -password=$PASSWORD
 
   # 创建 Towerwatch
   [[ ! $(docker ps -a) =~ watchtower ]] && yellow " Create TowerWatch.\n " && docker run -d --name watchtower --restart always -p 2095:8080 -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --cleanup >/dev/null 2>&1
