@@ -34,7 +34,7 @@ curl -L https://raw.githubusercontent.com/spiritLHLS/packetshare-one-click-comma
 ### 一键安装
 
 ```shell
-curl -L https://raw.githubusercontent.com/spiritLHLS/packetshare-one-click-command-installation/main/packetshare.sh -o packetshare.sh && chmod +x packetshare.sh && bash packetshare.sh -e 账户邮箱 -p 账户密码
+curl -L https://raw.githubusercontent.com/spiritLHLS/packetshare-one-click-command-installation/main/packetshare.sh -o packetshare.sh && chmod +x packetshare.sh && bash packetshare.sh -m 账户邮箱 -p 账户密码
 ```
 
 在此命令的中更改为你的账户邮箱和密码即可执行

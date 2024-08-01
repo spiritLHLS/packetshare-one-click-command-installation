@@ -38,7 +38,7 @@ After the registration link is registered, paste your Email and Password, and pr
 ### One command installation
 
 ```shell
-curl -L https://raw.githubusercontent.com/spiritLHLS/packetshare-one-click-command-installation/main/packetshare.sh -o packetshare.sh && chmod +x packetshare.sh && bash packetshare.sh -e your_email -p your_password
+curl -L https://raw.githubusercontent.com/spiritLHLS/packetshare-one-click-command-installation/main/packetshare.sh -o packetshare.sh && chmod +x packetshare.sh && bash packetshare.sh -m your_email -p your_password
 ```
 
 At the end of this command, modify it to your Email and Password and run it with one click
